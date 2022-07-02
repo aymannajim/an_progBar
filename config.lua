@@ -1,7 +1,7 @@
 Config = {}
 
 -- Choose your notification system
-Config.useMythic = true -- Enable if you're using Mythic_Notify
+Config.useMythic = false -- Enable if you're using Mythic_Notify
 Config.useESX = false -- Enable if you're using ESX notification
 Config.useQB = false -- Enable if you're using QBCore notification
 
