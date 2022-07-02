@@ -5,6 +5,8 @@
 ![image](https://user-images.githubusercontent.com/36258300/177007983-c46b1d05-94cb-4b91-957b-0d8e3b3c9960.png)
 ![image](https://user-images.githubusercontent.com/36258300/177007993-11cfae1b-5ccc-43f7-a234-678b9b902af8.png)
 
+## VIDEO:
+https://www.youtube.com/watch?v=TFv9voVMuRc
 
 ## How to use:
 **`exports['an_progBar']:run(TIME,TEXT,OPTIONAL_COLOR)`**
