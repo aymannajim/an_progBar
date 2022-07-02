@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    --mainColor: teal;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+    /* background-image: url(https://media.discordapp.net/attachments/779163150137819176/992061850067943424/unknown.png); */
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#progress {
+    top: 80%;
+    background: rgba(23, 23, 23, 0.35);
+    justify-content: flex-start;
+    box-sizing: border-box;
+    border-radius: 150px;
+    /* border: solid 1px rgba(23, 23, 23, 0.75); */
+    align-items: center;
+    position: fixed;
+    /* padding: 0 2px; */
+    /* display: flex; */
+    height: 40px;
+    width: 400px;
+    /* box-shadow: 0 10px 40px -10px var(--mainColor); */
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.2) 0px -12px 30px, rgba(0, 0, 0, 0.2) 0px 4px 6px, rgba(0, 0, 0, 0.23) 0px 12px 13px, rgba(0, 0, 0, 0.12) 0px -3px 5px; */
+}
+
+#progress-text {
+    width: fit-content;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#progress-value {
+    /* animation: load 5s normal forwards; */
+    border-radius: 150px;
+    height: 40px;
+    width: 0%;
+}
+
+.color {
+    box-shadow: 0 10px 40px -10px var(--mainColor);
+    background: var(--mainColor);
+}
+
+@keyframes glow {
+    0% {
+      /* width: 5%; */
+    }
+  
+    100% {
+      /* width: 100%; */
+      box-shadow: 0 10px 40px -10px var(--mainColor);
+      box-shadow: 0 0 40px var(--mainColor);
+    }
+}
+
+@keyframes load {
+    0% { width: 5%; }
+    100% { width: 100%; }
+}
+
+.hidden {
+    display: none;
+}
