@@ -47,7 +47,7 @@ function stopProgress(id) {
 
 function progress(data) {
     if (!alreadyProgressing) {
-        console.log(data.id)
+//         console.log(data.id)
         activeBars.push(data.id);
         alreadyProgressing = true;
         $('#progress').removeClass('hidden');
