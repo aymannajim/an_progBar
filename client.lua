@@ -41,6 +41,6 @@ function Notify(text,type)
     elseif Config.useESX then
         TriggerEvent('esx:showNotification', text)
     else
-        print(notif)
+        print(text)
     end
 end
