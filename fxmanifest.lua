@@ -21,4 +21,4 @@ files {
     'html/style.css',
 }
 
-export 'run'
+exports { 'run', 'stop' }
