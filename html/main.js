@@ -5,9 +5,20 @@ $(document).ready(function(){
 		let data = event.data
 		if (data.action == 'run') {
 			progress(data)
-		}
+		} else if (data.action == 'stop') {
+            		stopProgress()
+        	}
 	});
 });
+
+function stopProgress() {
+    if (alreadyProgressing) {
+        $('#progress').addClass('hidden');
+        alreadyProgressing = false;
+        $('#progress-value').css("animation",'');
+        $('#progress').css("animation",'');
+    }
+}
 
 function progress(data) {
     if (!alreadyProgressing) {
