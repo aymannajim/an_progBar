@@ -16,6 +16,9 @@ https://www.youtube.com/watch?v=TFv9voVMuRc
 > 
 > `OPTIONAL_COLOR`: [String] Color in HEX format - This is 100% OPTIONAL, not using this argument will make the progress bar use the Config.defaultColor set on the config file.
 
+**`exports['an_progBar']:stop()`**
+> This will stop the progress bar
+
 ## Example Code:
 ```lua
 -- code before the progress bar
