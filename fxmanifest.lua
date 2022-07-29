@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 author 'aymannajim | discord.gg/f2Nbv9Ebf5'
 description 'AN Progress Bar'
-version '1.0.0'
+version '1.1.0'
 
 ui_page 'html/index.html'
 
