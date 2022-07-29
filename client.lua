@@ -23,6 +23,12 @@ function run(time, text, color)
     })
 end
 
+function stop()
+    SendNUIMessage({
+        action = 'stop',
+    })
+end
+
 RegisterNUICallback('notif', function(data)
 	Notify(data.text, "error")
 end)
