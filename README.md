@@ -1,6 +1,8 @@
 # an_progBar
 ![image](https://user-images.githubusercontent.com/36258300/177007964-d6fea7d4-7705-4f2a-811d-5d723bbe9385.png)
 
+[![Join my Discord](https://img.shields.io/discord/784961984021266492?color=5865f2&label=Discord&logo=https%3A%2F%2Fi.imgur.com%2Ftt5au4m.png&style=for-the-badge)](https://discord.gg/f2Nbv9Ebf5)
+
 ## PREVIEW:
 ![image](https://user-images.githubusercontent.com/36258300/177007983-c46b1d05-94cb-4b91-957b-0d8e3b3c9960.png)
 ![image](https://user-images.githubusercontent.com/36258300/177007993-11cfae1b-5ccc-43f7-a234-678b9b902af8.png)
