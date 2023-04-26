@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
-author 'aymannajim | discord.gg/f2Nbv9Ebf5'
+author 'aymannajim' -- https://github.com/aymannajim
 description 'AN Progress Bar'
 version '1.1.0'
 
